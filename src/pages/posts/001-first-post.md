@@ -8,25 +8,6 @@ tags:
   - tutorials
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/foldgutter.js">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/dialog/dialog.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/theme/monokai.css">
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/search/searchcursor.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/search/search.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/dialog/dialog.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/edit/matchbrackets.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/edit/closebrackets.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/comment/comment.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/wrap/hardwrap.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/foldcode.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/brace-fold.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/javascript/javascript.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/keymap/sublime.js"></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/php/php.js" ></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/pascal/pascal.js" ></script>
-<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/css/css.js" ></script>
  
 
 <style>
@@ -54,4 +35,88 @@ Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope
 
 Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope you enjoy our content.Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope you enjoy our content.Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope you enjoy our content.Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope you enjoy our content.Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope you enjoy our content.
 
-<script async defer type="text/javascript" src="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fjs%2Ffirst-post.js?alt=media&token=b31c13c0-0790-48fd-855d-ce87cd0a5092"> </script>
+<!-- <script async defer type="text/javascript" src="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fjs%2Ffirst-post.js?alt=media&token=b31c13c0-0790-48fd-855d-ce87cd0a5092"> </script> -->
+
+<script>
+  biarkan code1 = `
+    / **
+     * Kita mengatur 4 buah postingan dalam 1 kali render page
+     * Buat halaman halaman pagination
+     * /
+    const postsPerPage = 6;
+    const numberOfPages = Math.ceil (posts.length / postsPerPage);
+
+    Array.from ({length: numberOfPages}). ForEach ((_, index) => {
+      const isFirstPage = index === 0;
+      const currentPage = indeks +1;
+
+      // Lewati halaman pertama karena index.js
+      if (isFirstPage) kembali
+
+      // kita buat halaman untuk template post-list
+      membuat halaman({
+        jalan:,
+        komponen: templates.postList,
+        konteks: {
+          batas: postsPerPage,
+          lewati: index * postsPerPage,
+          numberOfPages: numberOfPages,
+          currentPage: currentPage,
+        },
+      });
+    });
+
+    // kita membuat halaman untuk untuk halaman template penulis-posting, dimana halaman ini akan menampilkan penulis bersadarkan
+    author.forEach (author => {
+      membuat halaman({
+        jalan:,
+        komponen: templates.authorPosts,
+        konteks: {
+          authorName: author.name,
+          imageUrl: author.imageUrl 
+        }
+      });
+    });
+   `;
+  
+  biarkan code2 = `
+    var editor = CodeMirror (document.body.getElementsByTagName ("article") [0], {
+      nilai: nilai,
+      lineNumber: true,
+      mode: "pascal",
+      keyMap: "luhur",
+      autoCloseBrackets: true,
+      matchBrackets: true,
+      showCursorWhenSelecting: true,
+      tema: "monokai",
+      tabSize: 1,
+      readOnly: true
+    });
+
+  `
+  biarkan editorCode1 = CodeMirror (document.getElementById ('code1'), {
+    nilai: code1,
+    lineNumber: true,
+    mode: "javascript",
+    keyMap: "luhur",
+    autoCloseBrackets: true,
+    matchBrackets: true,
+    showCursorWhenSelecting: true,
+    tema: "monokai",
+    tabSize: 1,
+    readOnly: true
+  });
+
+   biarkan editorCode2 = CodeMirror (document.getElementById ('code2'), {
+    nilai: code2,
+    lineNumber: true,
+    mode: "javascript",
+    keyMap: "luhur",
+    autoCloseBrackets: true,
+    matchBrackets: true,
+    showCursorWhenSelecting: true,
+    tema: "monokai",
+    tabSize: 1,
+    readOnly: true
+  }); 
+</script>

@@ -30,6 +30,26 @@ const SinglePost = ({ data, pageContext, authorImageFluid, postAuthor }) => {
 	return ( 
 		<Layout postAuthor={author} authorImageFluid={data.file.childImageSharp.fluid}>
 			<SEO title={post.title} />
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/foldgutter.js">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/dialog/dialog.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/theme/monokai.css">
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/search/searchcursor.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/search/search.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/dialog/dialog.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/edit/matchbrackets.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/edit/closebrackets.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/comment/comment.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/wrap/hardwrap.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/foldcode.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/brace-fold.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/javascript/javascript.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/keymap/sublime.js"></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/php/php.js" ></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/pascal/pascal.js" ></script>
+			<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/css/css.js" ></script>
+			 
 			<Row>
 
 		        <Col md="8">
