@@ -37,7 +37,8 @@ Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope
 
 <!-- <script async defer type="text/javascript" src="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fjs%2Ffirst-post.js?alt=media&token=b31c13c0-0790-48fd-855d-ce87cd0a5092"> </script> -->
 
-<script>
+<script async defer>
+alert('p');
 let code1 = `
     /**
      * kita setting 4 buah postingan dalam 1 kali render page
