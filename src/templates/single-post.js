@@ -11,6 +11,7 @@ import { slugify } from '../util/utilityFunctions'
 import Img from 'gatsby-image'
 import authors from '../util/authors'
 import { DiscussionEmbed } from 'disqus-react' // import olugin disqus-rect
+import '../util/prism.js'
 
 const SinglePost = ({ data, pageContext, authorImageFluid, postAuthor }) => {
 	const post = data.markdownRemark.frontmatter // descturing hasil fetch api graphql untuk mendapatkan 1 post utuh.
