@@ -43,11 +43,6 @@ const Layout = ({ children }) => { // props.pageTitle
         crossOrigin="anonymous"
       />
     
-      <link
-        rel="stylesheet"
-        href="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fcss%2Fprism.css?alt=media&token=8604a4f4-f0e9-4bc7-8088-15ba4a23225c"
-      />
-
       <div id="content" className="container-fluid">
         <Header siteTitle={data.site.siteMetadata.title} />
         <div style={{width: '100%'}}>{children}</div>

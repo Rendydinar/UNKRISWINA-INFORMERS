@@ -16,6 +16,24 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+   {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `code`,
+        path: `${__dirname}/src/pages/posts`,
+      },
+    },  
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {},
+          },
+        ],
+      },
+    },      
     {
       resolve: `gatsby-source-filesystem`,
       options: {

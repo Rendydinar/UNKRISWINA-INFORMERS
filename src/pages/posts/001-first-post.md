@@ -8,14 +8,20 @@ tags:
   - tutorials
 ---
 
- 
-
-<style>
-  .CodeMirror {border-top: 1px solid #eee; border-bottom: 1px solid #eee; line-height: 1.3; height: 500px}
-  .CodeMirror-linenumbers { padding: 0 8px; }
-</style>
-
-
+```javascript
+    var editor = CodeMirror(document.body.getElementsByTagName("article")[0], {
+      value: value,
+      lineNumbers: true,
+      mode: "pascal",
+      keyMap: "sublime",
+      autoCloseBrackets: true,
+      matchBrackets: true,
+      showCursorWhenSelecting: true,
+      theme: "monokai",
+      tabSize: 1,
+      readOnly: true
+    });
+``` 
  
 Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope you enjoy our content.
 Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope you enjoy our content.
