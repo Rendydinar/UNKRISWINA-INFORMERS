@@ -18,6 +18,8 @@ import Header from "./header"
 import '../styles/index.scss'
 import Footer from './Footer'
 import UnrkriswinaLogo from '../images/logo_client.png'
+import '../util/prism.js'
+import '../util/prism.css'
 
 import { Row, Col, Card, CardTitle, CardBody, FormGroup, Form, CardText } from 'reactstrap'
 
@@ -41,27 +43,6 @@ const Layout = ({ children }) => { // props.pageTitle
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossOrigin="anonymous"
       />
-
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.js" crossOrigin="anonymous"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.css" crossOrigin="anonymous" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/foldgutter.js" crossOrigin="anonymous" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/dialog/dialog.css" crossOrigin="anonymous" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/theme/monokai.css" crossOrigin="anonymous" />
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/search/searchcursor.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/search/search.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/dialog/dialog.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/edit/matchbrackets.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/edit/closebrackets.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/comment/comment.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/wrap/hardwrap.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/foldcode.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/brace-fold.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/javascript/javascript.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/keymap/sublime.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/php/php.js" crossOrigin="anonymous"></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/pascal/pascal.js"crossOrigin="anonymous" ></script>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/css/css.js" crossOrigin="anonymous"></script>
-
 
       <div id="content" className="container-fluid">
         <Header siteTitle={data.site.siteMetadata.title} />
