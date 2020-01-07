@@ -42,10 +42,6 @@ const Layout = ({ children }) => { // props.pageTitle
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossOrigin="anonymous"
       />
-      <link
-        rel="stylesheet"
-        href="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fcss%2Fprism.css?alt=media&token=8604a4f4-f0e9-4bc7-8088-15ba4a23225c"
-      />
     
       <div id="content" className="container-fluid">
         <Header siteTitle={data.site.siteMetadata.title} />

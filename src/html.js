@@ -11,6 +11,11 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link
+          rel="stylesheet"
+          href="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fcss%2Fprism.css?alt=media&token=8604a4f4-f0e9-4bc7-8088-15ba4a23225c"
+        />
+        
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
