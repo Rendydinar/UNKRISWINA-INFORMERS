@@ -40,7 +40,72 @@ Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope
 
 
 
+
 Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope you enjoy our content.
+  <pre><code class="language-c++">
+    var editor = CodeMirror(document.body.getElementsByTagName("article")[0], {
+      value: value,
+      lineNumbers: true,
+      mode: "pascal",
+      keyMap: "sublime",
+      autoCloseBrackets: true,
+      matchBrackets: true,
+      showCursorWhenSelecting: true,
+      theme: "monokai",
+      tabSize: 1,
+      readOnly: true
+    });
+
+  </code></pre>
+
+  <pre><code class="language-java">
+    var editor = CodeMirror(document.body.getElementsByTagName("article")[0], {
+      value: value,
+      lineNumbers: true,
+      mode: "pascal",
+      keyMap: "sublime",
+      autoCloseBrackets: true,
+      matchBrackets: true,
+      showCursorWhenSelecting: true,
+      theme: "monokai",
+      tabSize: 1,
+      readOnly: true
+    });
+
+  </code></pre>
+
+  <pre><code class="language-css">
+    var editor = CodeMirror(document.body.getElementsByTagName("article")[0], {
+      value: value,
+      lineNumbers: true,
+      mode: "pascal",
+      keyMap: "sublime",
+      autoCloseBrackets: true,
+      matchBrackets: true,
+      showCursorWhenSelecting: true,
+      theme: "monokai",
+      tabSize: 1,
+      readOnly: true
+    });
+
+  </code></pre>
+
+  <pre><code class="language-Javascript">
+    var editor = CodeMirror(document.body.getElementsByTagName("article")[0], {
+      value: value,
+      lineNumbers: true,
+      mode: "pascal",
+      keyMap: "sublime",
+      autoCloseBrackets: true,
+      matchBrackets: true,
+      showCursorWhenSelecting: true,
+      theme: "monokai",
+      tabSize: 1,
+      readOnly: true
+    });
+
+  </code></pre>
+
 Welcome to Code Blog, I hope you enjoy our content, Welcome to Code Blog, I hope you enjoy our content.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fimg%2Fjavascript.jpg?alt=media&token=07e53a01-e07e-4d2c-b29f-0d6fcaa09dd3" class="img-fluid" />
