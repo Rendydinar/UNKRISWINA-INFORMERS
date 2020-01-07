@@ -11,11 +11,12 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link
-          rel="stylesheet"
-          href="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fcss%2Fprism.css?alt=media&token=8604a4f4-f0e9-4bc7-8088-15ba4a23225c"
+        <script 
+          async
+          defer 
+          src="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fjs%2Fprism.js?alt=media&token=434a5f3f-842f-4a35-b7e4-97ceaec14f1e"
         />
-        
+         
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
@@ -29,12 +30,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script 
-          async
-          defer 
-          src="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fjs%2Fprism.js?alt=media&token=434a5f3f-842f-4a35-b7e4-97ceaec14f1e"
-          data-manual
-        />
       </body>
     </html>
   )
