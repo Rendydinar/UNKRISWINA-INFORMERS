@@ -42,11 +42,11 @@ const Layout = ({ children }) => { // props.pageTitle
         crossOrigin="anonymous"
       />
 
+      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.js" crossOrigin="anonymous"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.css" crossOrigin="anonymous" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/fold/foldgutter.js" crossOrigin="anonymous" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/dialog/dialog.css" crossOrigin="anonymous" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/theme/monokai.css" crossOrigin="anonymous" />
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.js" crossOrigin="anonymous"></script>
       <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/search/searchcursor.js" crossOrigin="anonymous"></script>
       <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/search/search.js" crossOrigin="anonymous"></script>
       <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/addon/dialog/dialog.js" crossOrigin="anonymous"></script>
