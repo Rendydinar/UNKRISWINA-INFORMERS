@@ -18,8 +18,6 @@ import Header from "./header"
 import '../styles/index.scss'
 import Footer from './Footer'
 import UnrkriswinaLogo from '../images/logo_client.png'
-import '../util/prism.js'
-import '../util/prism.css'
 
 import { Row, Col, Card, CardTitle, CardBody, FormGroup, Form, CardText } from 'reactstrap'
 
@@ -43,6 +41,16 @@ const Layout = ({ children }) => { // props.pageTitle
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossOrigin="anonymous"
       />
+      <link
+        rel="stylesheet"
+        href="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fcss%2Fprism.css?alt=media&token=8604a4f4-f0e9-4bc7-8088-15ba4a23225c"
+      />
+
+
+      <script 
+        type="text/javascript"
+        src="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fjs%2Fprism.js?alt=media&token=434a5f3f-842f-4a35-b7e4-97ceaec14f1e"
+      /> 
 
       <div id="content" className="container-fluid">
         <Header siteTitle={data.site.siteMetadata.title} />
