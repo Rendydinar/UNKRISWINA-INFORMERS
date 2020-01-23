@@ -82,3 +82,4 @@ WRITELN('Hello Word');
 <p>Mantap program hello word kita sekarang sudah berjalan dengan benar, Selamat.</p>
 <br><br>
 <p>Oke itu saja tutorial dari saya kali ini mengenai pemprograman pascal, semoga kalian menyukainya.</p>
+<p>Maaf saya lupa untuk membuat programnya menggunakan Handphone Adroid, tutorialnya next time saja yah 😁</p>
