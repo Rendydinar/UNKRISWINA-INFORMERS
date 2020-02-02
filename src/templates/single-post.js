@@ -16,7 +16,7 @@ const SinglePost = ({ data, pageContext, authorImageFluid, postAuthor }) => {
 	const post = data.markdownRemark.frontmatter // descturing hasil fetch api graphql untuk mendapatkan 1 post utuh.
 	const author = authors.find(author => author.name === post.author); // ambil author post
 
-	const baseUrl = `https://unkriswina-informers.co.id/`
+	const baseUrl = `https://agitated-jepsen-6e02a6.netlify.com/`
 
 	// config untuk plugin disqus pada react
 	  const disqusShortname = 'https-unkriswina-informers-co-id'
