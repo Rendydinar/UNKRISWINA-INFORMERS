@@ -80,10 +80,10 @@ const SinglePost = ({ data, pageContext, authorImageFluid, postAuthor }) => {
 							<i className="fab fa-twitter  fa-2x" />
 							</a>
 						</li>
-						<li>
-							<a href={'https://plus.google.com/share?url=' + baseUrl + pageContext.slug} className="google" target="_blank" rel="noopener noreferrer">
-							<i className="fab fa-google  fa-2x" />
-							</a>
+						<li> 
+							<a href={'whatsapp://send?text=' + baseUrl + pageContext.slug} className="whatsapp" data-action="share/whatsapp/share" target="_blank" rel="noopener noreferrer">
+							<i className="fab fa-whatsapp fa-2x" />
+							</a> 
 						</li>
 						<li>
 							<a href={'https://linkedin.com/shareArticle?url=' + baseUrl + pageContext.slug} className="linkedin" target="_blank" rel="noopener noreferrer">
