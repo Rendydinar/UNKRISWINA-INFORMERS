@@ -81,7 +81,7 @@ const SinglePost = ({ data, pageContext, authorImageFluid, postAuthor }) => {
 							</a>
 						</li>
 						<li> 
-							<a href={'whatsapp://send?text=' + baseUrl + pageContext.slug} className="whatsapp" data-action="share/whatsapp/share" target="_blank" rel="noopener noreferrer">
+							<a href={'https://wa.me/?text=' + baseUrl + pageContext.slug} className="whatsapp" data-action="share/whatsapp/share" target="_blank" rel="noopener noreferrer">
 							<i className="fab fa-whatsapp fa-2x" />
 							</a> 
 						</li>
