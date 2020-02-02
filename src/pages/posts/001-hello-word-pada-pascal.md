@@ -1,6 +1,6 @@
 ---
 title: 'Hello Word Pada Pascal'
-date: 2019-12-19 13:06:42
+date: 'Jumat 29 Desember 2019 13:06 Pm'
 author: 'Umbu Rambu'
 image: ../../images/javascript.jpg
 tags:

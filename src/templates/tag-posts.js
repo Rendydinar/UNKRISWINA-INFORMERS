@@ -45,7 +45,7 @@ export const tagQuery = graphql`
 					id
 					frontmatter{
 						title
-						date(formatString: "MMMM Do YYTY")
+						date
 						author
 						tags
 						image{

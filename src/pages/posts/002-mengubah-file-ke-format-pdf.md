@@ -1,6 +1,6 @@
 ---
 title: 'Mengubah File Ke Format PDF'
-date: 2020-01-23 15:10:32
+date: 'Jumat 23 Januari 2020 15:10 Pm'
 author: 'Umbu Rambu'
 image: ../../images/convert-pdf-format.jpeg
 tags:
@@ -27,7 +27,7 @@ tags:
 <p>Okey Gassssss 💨</p>
 
 <h4>Langkah-langkah</h4>
-<ol>
+<ul>
 	<li>
 		<p>Buka Website <a href="https://online2pdf.com/convert-docx-to-pdf" target="_blank">online2pdf.com</a></p>
 		<img src="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fimg%2FScreenshot%20from%202020-01-23%2015-38-564.png?alt=media&token=05214055-4e32-4ca5-928b-cc3aa4ce069b" alt="Img" class="img-fluid">
@@ -54,7 +54,7 @@ tags:
 		<p>Ketika proses convert selesai maka file hasil convert pun akan di download secara otomatis</p>
 		<img src="https://firebasestorage.googleapis.com/v0/b/unkriswina-informers.appspot.com/o/assets%2Fimg%2FScreenshot%20from%202020-01-23%2015-50-36.png?alt=media&token=47c2f68e-2573-4ed1-b23f-8bb9559447a5" alt="Img" class="img-fluid">
 	</li>
-</ol>
+</ul>
 <br><br>
 <p>Nah bagaimana mudah bukan cara mengubah file kedalam format pdf secara online ?, sebenarnya masih banyak format yang dapat kita ubah selain format .pdf tapi semua itu harus sesuai kebutuhan saja yah 😄</p>
 <p>Okey itu saja tutorial kali ini, kalian bisa mencoba satu per satu layanan website yang saya sudah sebutkan diatas untuk mengubah format file/document. Sekian dan Terima Kasih 😇</p>

@@ -53,7 +53,7 @@ export const authorQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM Do YYYY")
+            date
             author
             tags
             image {
